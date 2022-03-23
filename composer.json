@@ -1,0 +1,13 @@
+{
+    "require-dev": {
+        "phpstan/phpstan": "^1.4"
+    },
+    "scripts": {
+        "analyse": "vendor/bin/phpstan analyse"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    }
+}
