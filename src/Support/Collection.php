@@ -13,7 +13,7 @@ class Collection
     /**
      * @param T $item
      *
-     * @return self<T>;
+     * @return self<T>
      */
     public function add($item): self
     {
